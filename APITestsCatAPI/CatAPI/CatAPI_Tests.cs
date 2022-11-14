@@ -68,6 +68,7 @@ namespace APITestsCatAPI.CatAPI
             Assert.That(jsonResponse.image.url, Is.EqualTo(expectedURL));
         }
 
+        //Delete a favourite by passing the id
         //set favouriteId variable with one of the following ids in order to get a successful test, otherwise will be bad request as not available
         //100098855,100098831,100098856
         [Test]
